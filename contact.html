@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me - Attan Bonaventure | Professional Portfolio</title>
+  <meta name="description" content="Contact form for Attan Bonaventure.">
+</head>
+<body>
+<header>
+  <!-- header: site banner, used once per page so screen readers can jump to it -->
+  <h1>Attan Bonaventure - Personal Professional Portfolio</h1>
+  <nav>
+    <!-- nav: main navigation landmark. Link text describes the destination (no "Click Here") -->
+    <a href="index.html">Home</a> |
+    <a href="about.html">About Me</a> |
+    <a href="gallery.html">Gallery</a> |
+    <a href="data.html">Skill Proficiency</a> |
+    <a href="contact.html">Contact Me</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Contact Me</h2>
+  <section>
+    <!-- form: each label is tied to its input with for/id so screen readers announce it; type=email and type=tel give built-in validation -->
+    <form action="#" method="post">
+      <p>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required>
+      </p>
+      <p>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+      </p>
+      <p>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone">
+      </p>
+      <p>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" cols="40" required></textarea>
+      </p>
+      <p>
+        <button type="submit">Send Message</button>
+      </p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <!-- footer: closing information for the page -->
+  <p>&copy; 2026 Attan Bonaventure. Software Engineering student, Year 2.</p>
+</footer>
+</body>
+</html>
