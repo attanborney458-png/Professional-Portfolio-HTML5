@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="Arial,sans-serif" role="img"><title>Sitemap flowchart</title>
+<rect width="800" height="380" fill="#fff"/>
+<text x="400" y="30" text-anchor="middle" font-size="20" font-weight="bold">Sitemap: Professional Portfolio</text>
+<g stroke="#1b1b1b" stroke-width="2" fill="none"><path d="M400 130V180M100 180H700M100 180V230M300 180V230M500 180V230M700 180V230"/></g>
+<rect x="300" y="60" width="200" height="70" rx="8" fill="#f2b705" stroke="#1b1b1b" stroke-width="2"/>
+<text x="400" y="92" text-anchor="middle" font-size="18" font-weight="bold">index.html</text><text x="400" y="114" text-anchor="middle" font-size="14">Home (hub)</text>
+<g fill="#fff" stroke="#1b1b1b" stroke-width="2"><rect x="20" y="230" width="160" height="70" rx="8"/><rect x="220" y="230" width="160" height="70" rx="8"/><rect x="420" y="230" width="160" height="70" rx="8"/><rect x="620" y="230" width="160" height="70" rx="8"/></g>
+<g text-anchor="middle" font-size="16" font-weight="bold"><text x="100" y="262">about.html</text><text x="300" y="262">gallery.html</text><text x="500" y="262">data.html</text><text x="700" y="262">contact.html</text></g>
+<g text-anchor="middle" font-size="13"><text x="100" y="284">Bio: lists</text><text x="300" y="284">Media: figures</text><text x="500" y="284">Results: table</text><text x="700" y="284">Input: form</text></g>
+<text x="400" y="345" text-anchor="middle" font-size="13" fill="#4a5160">Every page links back to all others through the shared navigation.</text></svg>
